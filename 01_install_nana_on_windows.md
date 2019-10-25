@@ -75,14 +75,14 @@ int main()
 Create a empty project, and set the following directories,
 
   1. set the `NanaInc` path in `Include Directories`,
-  ![vc_dir](./figs/01-vc_dir.png)
+  ![vc_dir](figs/01-vc_dir.png)
   2. set the `NanaLib` path in `Library Directories`.
   3. set the approporiate `nana.lib` in the input of Linker,
-  ![vc_lib](./figs/01-vc_lib.png)
+  ![vc_lib](figs/01-vc_lib.png)
   4. set the runtime compile options. In [MS Visual Studio](https://github.com/qPCR4vir/nana-docs/wiki/MS-Visual-Studio), *MDd and MTd for Debug Mode; MD and MT for Release Mode. Choosing the MD/MDd or MT/MTd depends on the property which is chose for building the Nana.* We choose `MT` for the `release version`.
-  ![vc_runtime](./figs/01-vc_runtime.png)
+  ![vc_runtime](figs/01-vc_runtime.png)
 
 Save, and compile, you can see the first nana GUI window.
 
-![hello_nana](./figs/01-hello_nana.png)
+![hello_nana](figs/01-hello_nana.png)
 
